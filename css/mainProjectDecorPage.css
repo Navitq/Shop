@@ -1,13 +1,56 @@
-body {
- 	max-width: 1000px;
- 	margin: 0px auto;
-	padding: 0px;
+* {
+	font-family: 'Poppins', sans-serif;
+	margin: 0px auto;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.mainNavigationMenu {
+body {
+ 	max-width: 1000px;
+	background-color: #0e0e0e;
+	color: #f2f2f2;
+
+}
+
+.mainHeaderBlock {
 	width: 100%;
 	height: 25px;
 	border-width: 1px ;
-	border-color: black;
+	border-color: white;
 	border-style: solid;
+}
+
+.mainNavigationMenu {
+	width: 440px;
+	display: flex;
+	flex-wrap: nowrap;
+
+}
+
+.mainHeaderBlock {
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+}
+
+.mainNavigationMenu {
+}
+
+.mainNavigationMenu:last-child {
+
+}
+
+.mainHeaderMenuLinks {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	color: #f2f2f2;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+    font-weight: 600;
+}
+
+.mainHeaderMenuLinks:last-child {
+	padding-right: 15px;
+
 }
