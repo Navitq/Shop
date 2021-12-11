@@ -5,19 +5,29 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/mainProjectDecorPage.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<script type="text/javascript" src="js/mainHeaderMenu.js"></script>
 	<title>MyDrugs</title>
 </head>
 
 	<body>
 		<header class="mainHeaderBlock">
-			<div class="mainLogoImage"><img src="img/mainLogoImage.png" class="mainLogo" title="Our Logo"></div>
-			<nav class = "mainNavigationMenu">
 
+			<div class="mainLogoImage">
+				<img src="img/mainLogoImage.png" class="mainLogo" title="Our Logo">
+			</div>
+
+			<input type="checkbox" class = "mainNavigationMenuForPhones" id = "fa-barsMenu" >
+			<label for="fa-barsMenu" class="fa-barsMenuPicture">
+			
+				<i class="fa fa-bars" aria-hidden="true" id = "barImg"></i>
+			</label>
+
+			<nav class = "mainNavigationMenu" id = "mainNavMen">
 				<a href="#" class="mainHeaderMenuLinks">Магазин</a>
 				<a href="#" class="mainHeaderMenuLinks">О нас</a>
 				<a href="#" class="mainHeaderMenuLinks">Контакты</a>
 				<a href="#" class="mainHeaderMenuLinks">Поддержка</a>
-				<input class="mainNavigationMenuPhones" type="radio" >			
 			</nav>
 		</header>
 		<main></main>
